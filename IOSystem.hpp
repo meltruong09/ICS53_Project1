@@ -15,6 +15,8 @@ class IOSystem
 		void write_block(int i, char *p);
 		void save();
 		void restore();
+		int getNumDescriptors();
+		int getNumBlocks();
 };
 
 #endif

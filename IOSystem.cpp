@@ -112,3 +112,11 @@ void save(){
 	saveFile.close();
 
 }
+
+int getNumBlocks(){
+	return B;
+}
+
+int getNumDescriptors(){
+	return L;
+}
